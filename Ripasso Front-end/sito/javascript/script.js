@@ -60,5 +60,3 @@ if (localStorage.getItem("username") == null) {
     localStorage.setItem("password", "pwd");
 }
 document.body.querySelector("p").textContent = "Nome: " + localStorage.getItem("username") + " --- " + "Password: " + localStorage.getItem("password");
-
-localStorage.clear();
